@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  $_SESSION["himitu"]="**********";
+  $_SESSION["himitu"]="**************";
 
   if( isset($_COOKIE['version']) ){ // クッキーがあればその値がカウント値
   $visit = $_COOKIE['version'];
